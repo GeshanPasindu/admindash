@@ -5,7 +5,7 @@ import Mainlayout from '../components/Mainlayout'
 const Dashboard = () => {
   return (
     <div>
-        dashboard
+       Dashboard
         </div>
   )
 }

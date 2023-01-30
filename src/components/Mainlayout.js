@@ -31,7 +31,7 @@ import Dashboard from '../pages/Dashboard';
           <Menu className='ant-menu-item '
             theme="dark"
             mode="inline"
-            defaultSelectedKeys={['Dashboard']}
+            defaultSelectedKeys={[key]}
             onClick={({key}) =>{
               navigate(key)
             }}
@@ -78,6 +78,7 @@ import Dashboard from '../pages/Dashboard';
         </Sider>
         <Layout className="site-layout">
           <Header
+          className='d-flex justify-content-between ps-3 pe-'
             style={{
               padding: 0,
               background: colorBgContainer,
@@ -87,6 +88,12 @@ import Dashboard from '../pages/Dashboard';
               className: 'trigger',
               onClick: () => setCollapsed(!collapsed),
             })}
+            <div className='d-flex gap-3 align-item-center' >
+              <div></div>
+              <div></div>
+              
+
+            </div>
           </Header>
           <Content
             style={{
@@ -96,7 +103,7 @@ import Dashboard from '../pages/Dashboard';
               background: colorBgContainer,
             }}
           >
-            <Dashboard/>
+            
             <Outlet/>
           </Content>
         </Layout>
