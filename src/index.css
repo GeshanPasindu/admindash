@@ -14,11 +14,47 @@
 }
 
 .logo {
-  height: 32px;
-  margin: 16px;
-  background: rgba(192, 20, 20, 0.3);
+  height: 38px;
+  margin: 0px;
+  
+  background-color:lightskyblue;
 }
 
 .ant-Layout{
-  min-height: 90vh;
+  min-height: 100vh;
+}
+
+.ant-menu-item {
+  margin: 10px 0;
+}
+
+.ant-Layout-sider{
+  flex: 0 0 250px !important;
+  max-width: 250px !important;
+  min-width: 250px !important;
+  width: 250px !important;
+}
+
+.ant-Layout-sider-collapsed{
+  flex: 0 0 50px !important;
+  max-width: 50px !important;
+  min-width: 50px !important;
+  width: 50px !important;
+}
+
+.logo.sm-Logo{
+  display: none;
+
+}
+
+.ant-Layout-sider-collapsed .sm-Logo{
+  display: block;
+}
+
+.ant-Layout-sider-collapsed .lg-Logo{
+  display: none;
+}
+
+main{
+  overflow-y: scroll;
 }

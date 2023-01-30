@@ -1,13 +1,10 @@
 import React from 'react'
 import Mainlayout from '../components/Mainlayout'
 
-
-const Dashboard = () => {
+function Seller() {
   return (
-    <div>
-        dashboard
-        </div>
+    <div>seller</div>
   )
 }
 
-export default Dashboard
+export default Seller
