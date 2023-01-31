@@ -31,7 +31,7 @@ import Dashboard from '../pages/Dashboard';
           <Menu className='ant-menu-item '
             theme="dark"
             mode="inline"
-            defaultSelectedKeys={[key]}
+            defaultSelectedKeys={["Dashboard"]}
             onClick={({key}) =>{
               navigate(`/Admin/${key}`)
             }}
