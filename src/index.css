@@ -36,10 +36,10 @@
 }
 
 .ant-Layout-sider-collapsed{
-  flex: 0 0 50px !important;
-  max-width: 50px !important;
-  min-width: 50px !important;
-  width: 50px !important;
+  flex: 0 0 30px !important;
+  max-width: 30px !important;
+  min-width: 30px !important;
+  width: 30px !important;
 }
 
 .logo.sm-Logo{
@@ -57,4 +57,40 @@
 
 main{
   overflow-y: scroll;
+}
+
+.img{
+  width: 65px;
+  height: 62px;
+}
+
+.img2{
+  width: 35px;
+  height: 35px;
+}
+.ant-layout-header h5 {
+  margin-top: 10px;
+  line-height: 25px;
+}
+.ant-layout-header p {
+  line-height: 10px;
+}
+.ant-layout-content{
+  background: transparent !important;
+  background-image: url(https://media.istockphoto.com/id/1135638647/photo/white-lines-and-spheres.jpg?b=1&s=170667a&w=0&k=20&c=KlFMDLyLj_V_AbGjSXaUxcuIb_7NN1s8cBRPYlfZqhw=)!important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+ 
+  
+}
+.cardsdiv{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+
+.cardsdiv h4{
+  margin-top: 30px;
 }

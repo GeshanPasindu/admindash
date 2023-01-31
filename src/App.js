@@ -23,7 +23,7 @@ function App() {
           <Route path='/Delivery' element={<Deliverypartners/>}/>
           <Route path='/Consumers' element={<Consumer/>}/>
           
-          <Route path='/Admin' element={<Mainlayout/>}><Route index element={<Home/>}/></Route>
+          <Route path='/Admin' element={<Mainlayout/>}><Route index element={<Dashboard/>}/></Route>
 
         </Routes>
    

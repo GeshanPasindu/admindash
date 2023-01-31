@@ -33,42 +33,42 @@ import Dashboard from '../pages/Dashboard';
             mode="inline"
             defaultSelectedKeys={[key]}
             onClick={({key}) =>{
-              navigate(key)
+              navigate(`/Admin/${key}`)
             }}
             items={[
               {
                 key: 'Dashboard',
-                icon: <AiOutlineDashboard  />,
+                icon: <AiOutlineDashboard  className='fs-5' />,
                 label: 'Dashboard',
                 
               },
               {
                 key: 'Seller',
-                icon: <AiOutlineUser />,
+                icon: <AiOutlineUser className='fs-5' />,
                 label: 'Sellers',
               
               },
               {
                 key: 'Delivery',
-                icon: <CiDeliveryTruck />,
+                icon: <CiDeliveryTruck className='fs-5' />,
                 label: 'Delivery Partners',
               },
               {
                 key: 'Consumers',
-                icon: <AiOutlineUser />,
+                icon: <AiOutlineUser className='fs-5' />,
                 label: 'Consumers',
                 
               },
               {
                 key: 'Commission ',
-                icon: <AiOutlineDollarCircle />,
+                icon: <AiOutlineDollarCircle className='fs-5' />,
                 label: 'Commission',
                 
               },
               
               {
-                key: '7',
-                icon: <AiOutlineLogout />,
+                key: 'Logout',
+                icon: <AiOutlineLogout className='fs-5' />,
                 label: 'Logout',
                 
                 
@@ -78,7 +78,7 @@ import Dashboard from '../pages/Dashboard';
         </Sider>
         <Layout className="site-layout">
           <Header
-          className='d-flex justify-content-between ps-3 pe-'
+          className='d-flex justify-content-between ps-3 pe-5'
             style={{
               padding: 0,
               background: colorBgContainer,
@@ -89,8 +89,15 @@ import Dashboard from '../pages/Dashboard';
               onClick: () => setCollapsed(!collapsed),
             })}
             <div className='d-flex gap-3 align-item-center' >
-              <div></div>
-              <div></div>
+              
+            <div><img className='img2' src='https://cdn-icons-png.flaticon.com/512/219/219986.png'/></div>
+            <div>
+                <h5 >User1</h5>
+                <p>user@awakaza.com</p>
+              </div>
+
+              <div><img className='img' src='https://circlebook.site/wp-content/uploads/2021/09/awakaza_logo-1024x1024.jpg' 
+              alt='compamy logo' ></img></div>
               
 
             </div>
