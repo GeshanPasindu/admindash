@@ -11,7 +11,8 @@ const Dashboard = () => {
        <Card
     style={{
       width: 300,
-      background: "linear-gradient(to right, #00b0ff,#89CFF0 )"
+      background: "linear-gradient(to right, #00b0ff,#89CFF0 )",
+      border: "2px solid white"
       
     }}
   >
@@ -23,7 +24,8 @@ const Dashboard = () => {
   <Card
     style={{
       width: 300,
-      background: "linear-gradient(to right, #00b0ff,#89CFF0 )"
+      background: "linear-gradient(to right, #00b0ff,#89CFF0 )",
+      border: "2px solid white"
     }}
   >
     <CiDeliveryTruck className='fs-2'/>
@@ -34,7 +36,8 @@ const Dashboard = () => {
   <Card
     style={{
       width: 300,
-      background: "linear-gradient(to right, #00b0ff,#89CFF0 )"
+      background: "linear-gradient(to right, #00b0ff,#89CFF0 )",
+      border: "2px solid white"
     }}
   >
     <FaUserCircle className='fs-2'/>
@@ -45,7 +48,9 @@ const Dashboard = () => {
   <Card
     style={{
       width: 300,
-      background: "linear-gradient(to right, #00b0ff,#89CFF0 )"
+      background: "linear-gradient(to right, #00b0ff,#89CFF0 )",
+      border: "2px solid white"
+
       
     }}
   >
